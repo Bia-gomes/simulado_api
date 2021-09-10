@@ -68,4 +68,4 @@ app.delete('/matricula/:id', async (req, resp) => {
 
 
 
-app.listen(process.env.PORT, x => console.log(`Serve up at port ${process.env.POERT}`))
+app.listen(process.env.PORT, x => console.log(`Serve up at port ${process.env.PORT}`))
