@@ -1,5 +1,5 @@
-import initdb from './models/init-models.js'
-import Sequelize from 'sequelize';
+import initdb from './models/init-models'
+import Sequelize from 'sequelize'; 
 
 const sequelize = new Sequelize(
 'mysql_17753_nsf2021',
