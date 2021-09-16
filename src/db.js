@@ -1,4 +1,4 @@
-import initdb from './models/init-models'
+import initdb from './models/init-models.js'
 import Sequelize from 'sequelize'; 
 
 const sequelize = new Sequelize(
